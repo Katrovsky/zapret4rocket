@@ -29,7 +29,7 @@ fi
 wget -O zapret-v70.zip "https://github.com/bol-van/zapret/releases/download/v70/zapret-v70.zip"
 unzip zapret-v70.zip
 rm -f zapret-v70.zip
-mv zapret-v70.zip zapret
+mv zapret-v70 zapret
 
 #Включение обхода дискорда
 cp /opt/zapret/init.d/custom.d.examples.linux/50-discord /opt/zapret/init.d/sysv/custom.d/
